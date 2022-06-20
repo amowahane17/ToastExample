@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         byDefaultToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "lol", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "lol", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Toast toast = Toast.makeText(MainActivity.this,"noice",Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(MainActivity.this,"noice",Toast.LENGTH_SHORT);
 
                 toast.setGravity(Gravity.CENTER,0,0);
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         nestedGravityToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast = Toast.makeText(MainActivity.this,"noice",Toast.LENGTH_LONG);
+                Toast toast = Toast.makeText(MainActivity.this,"noice",Toast.LENGTH_SHORT);
 
                 toast.setGravity(Gravity.BOTTOM|Gravity.END ,0,0);
 
