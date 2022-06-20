@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         nestedGravityToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast toast = Toast.makeText(MainActivity.this,"noice",Toast.LENGTH_SHORT);
+                Toast toast = Toast.makeText(MainActivity.this,"WOW!",Toast.LENGTH_SHORT);
 
                 toast.setGravity(Gravity.BOTTOM|Gravity.END ,0,0);
 
